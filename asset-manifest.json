@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KareemAzab21.github.io/myPortfolio/static/css/main.5dba26c8.css",
-    "main.js": "/KareemAzab21.github.io/myPortfolio/static/js/main.86038e33.js",
+    "main.js": "/KareemAzab21.github.io/myPortfolio/static/js/main.d9f584f9.js",
     "static/js/787.fb771931.chunk.js": "/KareemAzab21.github.io/myPortfolio/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/KareemAzab21.github.io/myPortfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/KareemAzab21.github.io/myPortfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -37,11 +37,11 @@
     "static/media/arrow1.svg": "/KareemAzab21.github.io/myPortfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/KareemAzab21.github.io/myPortfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.5dba26c8.css.map": "/KareemAzab21.github.io/myPortfolio/static/css/main.5dba26c8.css.map",
-    "main.86038e33.js.map": "/KareemAzab21.github.io/myPortfolio/static/js/main.86038e33.js.map",
+    "main.d9f584f9.js.map": "/KareemAzab21.github.io/myPortfolio/static/js/main.d9f584f9.js.map",
     "787.fb771931.chunk.js.map": "/KareemAzab21.github.io/myPortfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5dba26c8.css",
-    "static/js/main.86038e33.js"
+    "static/js/main.d9f584f9.js"
   ]
 }
