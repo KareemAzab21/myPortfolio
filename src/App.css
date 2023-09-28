@@ -304,6 +304,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+@media only screen and (max-width: 767px) {
+.banner h1 {
+  font-size: 25px;
+
+} 
+}
+@media only screen and (max-width: 500px) {
+.banner h1 {
+  font-size: 16px;
+
+} 
+.banner p {
+  font-size: 12px;
+
+} 
+}
 
 /************ Skills Css ************/
 .skill {
@@ -350,14 +366,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
-@media only screen and (max-width: 767px) {
-.banner h1 {
-  font-size: 25px;
 
-}
-
-  
-}
 
 /************ Projects Css ************/
 .project {
