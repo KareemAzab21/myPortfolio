@@ -350,6 +350,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+@media only screen and (max-width: 767px) {
+.banner h1 {
+  font-size: 25px;
+
+}
+
+  
+}
 
 /************ Projects Css ************/
 .project {
