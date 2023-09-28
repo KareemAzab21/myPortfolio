@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Software Developer", "Automotive Software Engineer"];
+  const toRotate = ["Software Developer", "Automotive Engineer"];
   const period = 500;
 
   useEffect(() => {
@@ -54,11 +54,10 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+              <div id="banner_const" className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Kareem Azab`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Automotive Software Engineer"]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Kareem Azab`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Automotive  Engineer"]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a software engineer with a passion for the automotive sector.Specializes in developing software solutions for vehicles. With a focus on improving vehicle performance, safety, and the development of autonomous systems,I am also intersted in Cloud Computing and Web developing and always seek  learning more.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
